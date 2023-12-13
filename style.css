@@ -33,6 +33,7 @@ body {
     height: 8px;
     border: none;
     border-radius: 10px;
+    transition: 0.1s;
 }
 .slide-middle-bg {
     height: 300px;
