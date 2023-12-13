@@ -47,17 +47,18 @@ body {
 .f-weight {
     font-weight: 700;
 }
-.smartphone-nav, .laptop-nav {
-    margin-bottom: 10px;
+.smartphone-nav, .laptop-nav, .categories-nav {
+    margin-bottom: 30px;
 }
 .smartphone img, .laptop img{
     width: 150px;
 }
 .smartphone-cart, .laptop-cart {
     padding: 30px 30px;
+    border-radius: 20px;
     border: none;
-    box-shadow: 13px 13px 20px #cbced1,
-                -13px -13px 20px #ffffff;
+    box-shadow: 13px 13px 50px #cbced1,
+                -13px -13px 50px #ffffff;
 }
 .smartphone-cart h5, .laptop-cart h5 {
     text-align: center;
@@ -74,4 +75,46 @@ body {
 .card-footer {
     border: none;
     background-color: #fff;
+}
+
+.smartphone-section, .laptop-section, .categories-section {
+    margin-top: 100px;
+}
+.categories-nav h3 {
+    text-align: center;
+}
+.categories-nav h3:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    margin-top: 10px;
+    border-bottom: 10px solid rgb(255, 196, 1);
+    border-radius: 20px;
+}
+.bag, .beauty, .shoes {
+    padding: 30px 30px;
+    text-align: center;
+    border-radius: 10px 2px 30px 2px;
+    box-shadow: 13px 13px 50px #cbced1,
+                -13px -13px 50px #ffffff;
+}
+.box img {
+    width: 70%;
+}
+.box h5 {
+    margin-top: 30px;
+}
+.box .shoes h5 {
+    margin-top: 0px;
+    padding-bottom: 30px;
+}
+.shoes {
+    margin-top: 50px;
+}
+.pale-order {
+    width: 100%;
+}
+.box {
+    padding: 20px;
 }
