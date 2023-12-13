@@ -3,6 +3,8 @@ body {
     background-repeat: no-repeat;
     background-size: 110px;
     background-position: -20px 450px;
+    /* font-family: 'Nova Square', sans-serif; */
+    font-family: 'Poppins', sans-serif;
 }
 .btn {
     padding: 5px 20px;
@@ -42,24 +44,32 @@ body {
 .anchor {
     text-decoration: none;
 }
-.smartphone-nav {
+.f-weight {
+    font-weight: 700;
+}
+.smartphone-nav, .laptop-nav {
     margin-bottom: 10px;
 }
-.smartphone img{
+.smartphone img, .laptop img{
     width: 150px;
 }
-.smartphone-cart {
+.smartphone-cart, .laptop-cart {
     padding: 30px 30px;
     border: none;
     box-shadow: 13px 13px 20px #cbced1,
                 -13px -13px 20px #ffffff;
 }
-.smartphone-cart h5 {
+.smartphone-cart h5, .laptop-cart h5 {
     text-align: center;
-
+    font-weight: 700;
 }
-.smartphone-cart .price {
-    margin-bottom: 10px;
+.smartphone-cart p, .laptop-cart p {
+    text-align: center;
+    color: grey;
+} 
+.smartphone-cart .price, .laptop-cart .price {
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 .card-footer {
     border: none;
